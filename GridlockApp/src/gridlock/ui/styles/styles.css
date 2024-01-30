@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Rubber Biscuit", sans-serif;
+    src: url("RUBBBB__.TTF");
+}
+
+@font-face {
+    font-family: "Rubber Biscuit", sans-serif;
+    src: url("RUBBBI__.TTF");
+}
+
+.root {
+    -fx-font-family: "Rubber Biscuit";
+}
+
+.text {
+    -fx-fill: gold;
+}
+
+.main-heading {
+    -fx-font-size: 36;
+    -fx-fill: gold;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.5), 16, 0.5, 0, 3);
+}
+
+.xl-heading {
+    -fx-font-size: 48;
+}
+
+.styled-button {
+    -fx-padding: 12;
+    -fx-background-color: black;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-width: 2;
+    -fx-border-color: darkgoldenrod;
+
+    -fx-font-family: "Rubber Biscuit";
+    -fx-font-size: 14;
+    -fx-text-fill: goldenrod;
+
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.5), 16, 0.5, 0, 3);
+    -fx-cursor: hand;
+}
+
+.styled-button:hover {
+    -fx-border-color: goldenrod;
+    -fx-text-fill: gold;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.5), 32, 0.5, 0, 5);
+}
+
